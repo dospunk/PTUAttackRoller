@@ -3,6 +3,7 @@ function onOpen(e) {
   var ui = SpreadsheetApp.getUi();
   var menu = ui.createMenu("Roller Menu");
   
+  //hey google please let me use functions with parameters here thanks
   menu.addItem("Roll Struggle", "attack1")
       .addItem("Roll Attack 2", "attack2")
       .addItem("Roll Attack 3", "attack3")
